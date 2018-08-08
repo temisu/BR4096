@@ -1,0 +1,42 @@
+
+     .--------. .--------.   .---.
+     `-----.   |`------.  `.  \   \
+           |   |        |  |.--    \
+           |   |.------'  .`----.   \
+           `---'`---------'      `---' 
+
+<<             B R 4 0 9 6                >>
+                                           
+.------------------------------------------.
+This our  contribution to the 4k intro compo
+at Assembly 2018 demo party.
+
+  Code:                   TS and Firehawk  
+  Music:                               oo
+
+To run the intro, you'll need a 64-bit Intel
+system  with MacOS 10.12 or later and a fast
+GPU such as a GTX 1080 or better.
+
+Before  running the compo versions, set your
+display to the correct  resolution in system
+settings.  Additionally,  please  make  sure
+that your audio device is capable of 44100Hz
+audio at  16-bit  resolution.  Also,  please
+ignore the error messages - it's normal. :D 
+
+If you are unable to run the  compo versions
+on your system, try the "compatibility" ones
+instead.  They use the standard  linker, use
+a real time clock source, set the resolution
+for you and exit cleanly.  The compatibility
+versions also support Intel GPUs.
+
+The executable code for the intro is written
+in x86 assembly and uses the standard ABI to
+call the Cocoa  framework to  initialize the
+OpenGL  context.  The  actual effect is,  as
+usual, fully  written in GLSL.  The music is
+rendered  real-time  using   the   Komposter
+player.
+'------------------------------------------'
